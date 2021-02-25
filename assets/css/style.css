@@ -57,7 +57,7 @@ p {
 /* Main - Hero image */
 
 .hero {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .hero img {
@@ -69,7 +69,7 @@ p {
 /*section content & image properties */
 
 .contents {
-    width: 75%;
+    width: 78%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -103,60 +103,30 @@ p {
     margin-left: 25px;
 }
 
+/* Aside section properties */
+
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    
+    padding: 41.5px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #32a5e2;
 }
 
-.benefit {
+.benefits .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3 {
+.benefits .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
