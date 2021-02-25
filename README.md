@@ -4,23 +4,8 @@
 
 ## Refacator of the Horiseon web page to follow accessibility standards and optimize for search engines.
 
-## Acceptance Criteria
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-## changes made in HTML
 
-## Overall
+>**Changes to HTML and CSS**
 ```
 - removed / from self closing tags
 - switched order of title and link
@@ -33,16 +18,23 @@ THEN I find a concise, descriptive title
 - organisation off CSS for structure and readability.
 - consolidation of repetitive CSS/HTML and made selectors more specific
 - all links working
+- code left a little cleaner
+- Acceptance criteria has been checked
 ```
 
-#### Custom Asthetic changes
-```
-- Softened the background color of benefits section.
-- main contents width and benefits paddings increased slightly for a cleaner finish.
+>**Custom Asthetic changes**
+
+
+1. Softened the background color of benefits section.
+2. main contents width and benefits paddings increased slightly for a cleaner finish.
 ```
 
 ## Mock-up
 The following image shos the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/01-html-css-git-homework-demo.png)
 
+
+
+---
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
