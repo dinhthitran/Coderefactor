@@ -56,11 +56,11 @@ p {
 
 /* Main - Hero image */
 
-div.hero {
+.hero {
     margin-bottom: 25px;
 }
 
-div.hero {
+.hero img {
     height: 800px;
     width: 100%;
     object-fit: cover;
@@ -68,13 +68,13 @@ div.hero {
     
 /*section content & image properties */
 
-main.contents {
+.contents {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-main.contents section.content {
+.contents .content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,22 +83,22 @@ main.contents section.content {
     color: #ffffff;
 }
 
-main.contents section.content img {
+.contents .content img {
     max-height: 200px;
 }
 
-main.contents section.content h2 {
+.contents .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 
-.float-left {
+.contents .content .float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.contents .content .float-right {
     float: right;
     margin-left: 25px;
 }
